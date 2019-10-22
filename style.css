@@ -1,0 +1,121 @@
+*{margin:0;padding:0;}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+    background-color:#719DD8;height:960px;
+}
+body{
+	background:#719DD8;
+}
+#header{
+	font-family:arial;
+	font-size:30px;
+	color:navy;
+	text-align:center;
+	background:#89B508;
+	border:5px solid black;
+	}
+	#header h2{
+		font-family:arial;
+		text-shadow:2px 4px 4px blue;
+		color:navy;
+		text-align:center;
+	}
+#header p{
+	font-size:23px;
+	color:blue;
+	text-align:center;
+} 
+#nav{
+	font-family:arial;
+	
+	background-color:white;
+	
+    height:21px;
+		
+}
+#nav ul{
+	list-style-type:none;
+	
+	
+	}
+#nav ul li{
+	float:left;
+	display:block;
+	color:green;
+	
+}	
+#nav ul li a{
+	width:954px;
+	text-decoration:none;
+	border-right:2px solid black;
+	padding:3px;
+}
+#nav ul li a:hover{
+	color:navy;
+	background:blue;
+	transition:1s ease;
+}
+#slider img{
+	width:950px;
+	height:400px;
+	border:5px solid black;
+}
+#wrapper_content{
+	
+}
+#content h2{
+    background:green;	
+    width:960px;
+	height:70px;
+	padding:10px;
+
+    text-align:center;
+
+    animation-name:salma;
+    animation-duration:2s;
+    animation-iteration-count:infinite;	
+	
+}
+
+@keyframes salma{
+	from{background-color:green;}
+	to{background-color:blue;border-radius:30%;}
+}
+#content p{
+	font-family:arial;
+	font-size:23px;
+	width:960px;
+}
+#sidebar p{ 
+    background:navy;
+	width:250px;
+	height:100px;
+	
+	padding:15px;
+	display:inline-block;
+	color:white;
+	border-radius:20%;
+	font-family:arial;
+	text-align:center;
+	
+}
+
+#footer p{
+	color:yellow;
+	text-align:center;
+	background:#ff5200;
+    margin:bottom;
+	
+	
+	
+}
+
+	
+
+	
+
+	
+
+
+	
